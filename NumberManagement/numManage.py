@@ -23,3 +23,32 @@ def main():
 
 if __name__ == "__main__":
   main()
+
+
+#code for postman 
+#   const urls = [
+#     "http://20.244.56.144/numbers/primes",
+#     "http://20.244.56.144/numbers/fibo"
+# ];
+
+# const numbers = [];
+
+# urls.forEach(url => {
+#     pm.sendRequest({
+#         url: url,
+#         method: 'GET',
+#         timeout: 500
+#     }, function (err, response) {
+#         if (response && response.code === 200) {
+#             const jsonData = response.json();
+#             if (jsonData && jsonData.numbers) {
+#                 numbers.push(...jsonData.numbers);
+#             }
+#         }
+#     });
+# });
+
+# pm.waitForRequests();
+
+# numbers.sort();
+# console.log(JSON.stringify({ numbers: numbers }));
