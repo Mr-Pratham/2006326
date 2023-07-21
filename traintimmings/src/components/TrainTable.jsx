@@ -22,7 +22,7 @@ function TrainTable() {
 
   return (
     <Container maxWidth="md">
-      <Typography variant="h4" align="center" gutterBottom>
+      <Typography variant="h4" align="center">
         All Trains Schedule
       </Typography>
     </Container>
